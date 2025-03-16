@@ -1,0 +1,4 @@
+[2025-03-16 09:26:00] ADD_MEMBER_ERROR: ERROR: duplicate key value violates unique constraint "members_email_key"
+  Detail: Key (email)=(alice@example.com) already exists.
+[2025-03-16 10:02:38] Exported books to books.csv
+[2025-03-16 10:02:44] Exported members to members.csv
