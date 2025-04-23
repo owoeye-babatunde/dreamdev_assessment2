@@ -1,11 +1,13 @@
-package com.library.dao;
-import com.library.model.Member;
+package com.babsman.dreamdevs.dao.interfaces;
+
+import com.babsman.dreamdevs.model.Member;
 import java.util.List;
 
 public interface MemberDAO {
+
     void addMember(Member member);
     void updateMember(Member member);
     void deleteMember(int memberId);
-    Member getMemberById(int memberId);
     List<Member> getAllMembers();
+    Member getMemberById(int memberId);
 }

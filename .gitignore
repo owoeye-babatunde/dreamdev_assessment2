@@ -1,27 +1,28 @@
+# Maven-specific
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+pom.xml.versionsBackup
+release.properties
+.mvn/wrapper/maven-wrapper.jar  # Keep this (already handled by your negation)
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# IntelliJ IDEA
+.idea/
 *.iml
+*.iws
 *.ipr
+out/  # IntelliJ build directory
 
-### Eclipse ###
-.apt_generated
+# Eclipse
 .classpath
 .factorypath
 .project
 .settings
 .springBeans
 .sts4-cache
+.apt_generated
 
-### NetBeans ###
+# NetBeans
+nbactions.xml
+nb-configuration.xml
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -31,20 +32,20 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# MacOS
 .DS_Store
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-.mvn/
-/.mvn/
-/.repository
+.idea
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Env files
+.env
+*.env
